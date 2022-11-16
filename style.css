@@ -1,0 +1,81 @@
+.body {
+  margin: auto;
+}
+.container {
+  font-family: monospace, monospace;
+  color: #2080ad;
+  padding: 10px 100px 0px 100px;
+}
+
+.box {
+  border: 2px solid #666;
+  background-color: #ddd;
+  border-radius: 0.5em;
+  cursor: move;
+}
+
+.box.question {
+  padding: 0 50px 0 50px;
+}
+
+.box.option {
+  padding: 5px;
+}
+
+.box-questions {
+  background-color: #fafafa;
+  font-size: 20px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  line-height: 2;
+  border: none;
+  border-radius: 10px;
+}
+
+.box-options {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 0.5em;
+  border: 2px solid #666;
+  color: #2080ad;
+  font-weight: bold;
+}
+
+.btn.submit-active {
+  background-color: #2080ad;
+  color: white;
+  cursor: pointer;
+}
+
+.btn.submit-inactive {
+  background-color: #fafafa;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.btn.refresh {
+  display: none;
+}
+
+.box-finish {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 100px;
+  font-family: monospace, monospace;
+  color: #2080ad;
+  background-color: #fafafa;
+  display: none;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang>
+  <head>
+    <title>Coding Quiz</title>
+    <script type="text/javascript" src="./index.js"></script>
+    <link rel="stylesheet" href="./style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Coding Quiz</h2>
+      <pre class="box-questions" id="box-questions">    
+        <code>
+            const nums = [1, 2, 3, 4];
+            const initializer = 90;
+
+            const addItUp = nums<span draggable="true" class="box question" id="question-0"></span>((accumulator, <span draggable="true" class="box question" id="question-1"></span>) => {
+                return <span draggable="true" class="box question" id="question-2"></span> + currentValue;
+            }, <span draggable="true" class="box question" id="question-3"></span>);
+
+            console.log(addItUp);
+        </code>
+      </pre>
+      <div class="action-section" id="action-section">
+        <div class="box-options" id="options"></div>
+        <button class="btn refresh" id="refresh">Refresh</button>
+        <button class="btn submit-inactive" id="submit" disabled>Submit</button>
+      </div>
+      <div class="box-finish" id="box-finish"></div>
+    </div>
+  </body>
+</html>

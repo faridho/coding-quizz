@@ -3,6 +3,7 @@
 Coding quizzes are quizzes with questions in which participants map syntactic shards into incomplete syntax via drag and drop. The goal is to make the syntax work correctly.
 
 ## Demo
+![](https://github.com/faridho/coding-quizz/blob/master/demo.gif?raw=true)
 
 ## Code
 
